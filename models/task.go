@@ -5,11 +5,11 @@ import (
 )
 
 type Task struct {
-	ID     int    `json:"id"`
-	Name   string `json:"name"`
-	Pic   string `json:"pic"`
-	Deadline   string `json:"deadline"`
-	Status int    `json:"status"`
+	ID       int    `json:"id"`
+	Name     string `json:"name"`
+	Pic      string `json:"pic"`
+	Deadline string `json:"deadline"`
+	Status   int    `json:"status"`
 }
 
 type TaskCollection struct {
