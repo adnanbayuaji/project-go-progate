@@ -86,7 +86,7 @@
                                       id="statusPost"
                                     >
                                       <option selected>Select Status</option>
-                                      <option value="0">Todo</option>
+                                      <option value="0">Not Yet</option>
                                       <option value="1">In progress</option>
                                       <option value="2">Done</option>
                                     </select>
@@ -159,7 +159,7 @@
         }
       });
       function getStatus(status) {
-        if (status == 0) return "Todo";
+        if (status == 0) return "Not Yet";
         if (status == 1) return "In Progress";
         return "Done";
       }
